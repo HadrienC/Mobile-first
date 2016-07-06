@@ -1,0 +1,49 @@
+.error{
+	width: 100%;
+	height: 100%;
+
+	.error_content{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		width: 100%;
+		height: 100%;
+
+		.error_txt{
+			color: $marron;
+			font-size: 1.5rem;
+			text-transform: uppercase;
+			font-weight: 600;
+			margin-bottom: 20px;
+		}
+		.error_404{
+			font-size: 8rem;
+			font-weight: bold;
+			vertical-align: top;
+
+			.error_orange{
+				color: $orange;
+			}
+			img{
+				width: 90px;
+				margin : auto -20px ; 
+				padding-bottom: 5px;
+			}
+			.error_marron{
+				color: $marron;
+			}
+		}
+		p{
+			color: $marron;
+			margin-top: 30px;
+		}
+		.error_link{
+			margin-top: 40px;
+			padding: 15px 25px;
+			background: $orange;
+			color: #fff;
+			border-radius: 5px;
+		}
+	}
+}
